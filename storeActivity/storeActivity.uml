@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_aQ978EamEeuE9pHu2l7MHw" name="storeActivity">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_antA8EamEeuE9pHu2l7MHw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_aYbO0EamEeuE9pHu2l7MHw" name="Activity1" node="_RewqAEanEeuE9pHu2l7MHw _1Mp-8EapEeuE9pHu2l7MHw _Z_-80EaqEeuE9pHu2l7MHw _ijiSQEaqEeuE9pHu2l7MHw _zh5Q0EaqEeuE9pHu2l7MHw _O_LFUEarEeuE9pHu2l7MHw _XUzTgEarEeuE9pHu2l7MHw _f4dWoEarEeuE9pHu2l7MHw _c22KUEasEeuE9pHu2l7MHw _hIzuwEasEeuE9pHu2l7MHw _phLu8EasEeuE9pHu2l7MHw _upE10EasEeuE9pHu2l7MHw _wfEuIEasEeuE9pHu2l7MHw _7d7oYEasEeuE9pHu2l7MHw _4-3IcEatEeuE9pHu2l7MHw">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Rsif8EaqEeuE9pHu2l7MHw" name="start " target="_1Mp-8EapEeuE9pHu2l7MHw" source="_RewqAEanEeuE9pHu2l7MHw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_fkg8YEaqEeuE9pHu2l7MHw" target="_Z_-80EaqEeuE9pHu2l7MHw" source="_1Mp-8EapEeuE9pHu2l7MHw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_lNpIEEaqEeuE9pHu2l7MHw" target="_ijiSQEaqEeuE9pHu2l7MHw" source="_Z_-80EaqEeuE9pHu2l7MHw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CmfRYEarEeuE9pHu2l7MHw" target="_zh5Q0EaqEeuE9pHu2l7MHw" source="_ijiSQEaqEeuE9pHu2l7MHw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_RzBF8EarEeuE9pHu2l7MHw" target="_O_LFUEarEeuE9pHu2l7MHw" source="_zh5Q0EaqEeuE9pHu2l7MHw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Zh7SYEarEeuE9pHu2l7MHw" name="not found " target="_XUzTgEarEeuE9pHu2l7MHw" source="_zh5Q0EaqEeuE9pHu2l7MHw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_xZJUQEatEeuE9pHu2l7MHw" target="_f4dWoEarEeuE9pHu2l7MHw" source="_O_LFUEarEeuE9pHu2l7MHw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_yZKm0EatEeuE9pHu2l7MHw" target="_c22KUEasEeuE9pHu2l7MHw" source="_f4dWoEarEeuE9pHu2l7MHw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_z7swkEatEeuE9pHu2l7MHw" target="_phLu8EasEeuE9pHu2l7MHw" source="_c22KUEasEeuE9pHu2l7MHw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_RewqAEanEeuE9pHu2l7MHw" name="start" outgoing="_Rsif8EaqEeuE9pHu2l7MHw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_1Mp-8EapEeuE9pHu2l7MHw" name="explores products " incoming="_Rsif8EaqEeuE9pHu2l7MHw" outgoing="_fkg8YEaqEeuE9pHu2l7MHw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Z_-80EaqEeuE9pHu2l7MHw" name="search products " incoming="_fkg8YEaqEeuE9pHu2l7MHw" outgoing="_lNpIEEaqEeuE9pHu2l7MHw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ijiSQEaqEeuE9pHu2l7MHw" name="find product " incoming="_lNpIEEaqEeuE9pHu2l7MHw" outgoing="_CmfRYEarEeuE9pHu2l7MHw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_zh5Q0EaqEeuE9pHu2l7MHw" name="found" incoming="_CmfRYEarEeuE9pHu2l7MHw" outgoing="_RzBF8EarEeuE9pHu2l7MHw _Zh7SYEarEeuE9pHu2l7MHw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_O_LFUEarEeuE9pHu2l7MHw" name="buy " incoming="_RzBF8EarEeuE9pHu2l7MHw" outgoing="_xZJUQEatEeuE9pHu2l7MHw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_XUzTgEarEeuE9pHu2l7MHw" name="ActivityFinalNode12" incoming="_Zh7SYEarEeuE9pHu2l7MHw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_f4dWoEarEeuE9pHu2l7MHw" name="addto cart" incoming="_xZJUQEatEeuE9pHu2l7MHw" outgoing="_yZKm0EatEeuE9pHu2l7MHw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_c22KUEasEeuE9pHu2l7MHw" name="checkout " incoming="_yZKm0EatEeuE9pHu2l7MHw" outgoing="_z7swkEatEeuE9pHu2l7MHw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_hIzuwEasEeuE9pHu2l7MHw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_phLu8EasEeuE9pHu2l7MHw" name="registered user" incoming="_z7swkEatEeuE9pHu2l7MHw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_upE10EasEeuE9pHu2l7MHw" name="login "/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_wfEuIEasEeuE9pHu2l7MHw" name="signup"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7d7oYEasEeuE9pHu2l7MHw" name="enter delivery detail "/>
+    <node xmi:type="uml:ForkNode" xmi:id="_4-3IcEatEeuE9pHu2l7MHw" name="ForkNode24"/>
+  </packagedElement>
+</uml:Model>
