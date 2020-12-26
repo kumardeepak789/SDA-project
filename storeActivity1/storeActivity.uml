@@ -3,7 +3,7 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_antA8EamEeuE9pHu2l7MHw">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Activity" xmi:id="_aYbO0EamEeuE9pHu2l7MHw" name="Activity1" node="_RewqAEanEeuE9pHu2l7MHw _1Mp-8EapEeuE9pHu2l7MHw _Z_-80EaqEeuE9pHu2l7MHw _ijiSQEaqEeuE9pHu2l7MHw _zh5Q0EaqEeuE9pHu2l7MHw _O_LFUEarEeuE9pHu2l7MHw _XUzTgEarEeuE9pHu2l7MHw _f4dWoEarEeuE9pHu2l7MHw _c22KUEasEeuE9pHu2l7MHw _hIzuwEasEeuE9pHu2l7MHw _phLu8EasEeuE9pHu2l7MHw _upE10EasEeuE9pHu2l7MHw _wfEuIEasEeuE9pHu2l7MHw _7d7oYEasEeuE9pHu2l7MHw _4-3IcEatEeuE9pHu2l7MHw">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_aYbO0EamEeuE9pHu2l7MHw" name="Activity1" node="_RewqAEanEeuE9pHu2l7MHw _1Mp-8EapEeuE9pHu2l7MHw _Z_-80EaqEeuE9pHu2l7MHw _ijiSQEaqEeuE9pHu2l7MHw _zh5Q0EaqEeuE9pHu2l7MHw _O_LFUEarEeuE9pHu2l7MHw _XUzTgEarEeuE9pHu2l7MHw _f4dWoEarEeuE9pHu2l7MHw _c22KUEasEeuE9pHu2l7MHw _hIzuwEasEeuE9pHu2l7MHw _phLu8EasEeuE9pHu2l7MHw _upE10EasEeuE9pHu2l7MHw _wfEuIEasEeuE9pHu2l7MHw _7d7oYEasEeuE9pHu2l7MHw _Uie_AEd-Eeuv9vzHtDBg0w _n2HL0Ed-Eeuv9vzHtDBg0w">
     <edge xmi:type="uml:ControlFlow" xmi:id="_Rsif8EaqEeuE9pHu2l7MHw" name="start " target="_1Mp-8EapEeuE9pHu2l7MHw" source="_RewqAEanEeuE9pHu2l7MHw"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_fkg8YEaqEeuE9pHu2l7MHw" target="_Z_-80EaqEeuE9pHu2l7MHw" source="_1Mp-8EapEeuE9pHu2l7MHw"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_lNpIEEaqEeuE9pHu2l7MHw" target="_ijiSQEaqEeuE9pHu2l7MHw" source="_Z_-80EaqEeuE9pHu2l7MHw"/>
@@ -13,20 +13,28 @@
     <edge xmi:type="uml:ControlFlow" xmi:id="_xZJUQEatEeuE9pHu2l7MHw" target="_f4dWoEarEeuE9pHu2l7MHw" source="_O_LFUEarEeuE9pHu2l7MHw"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_yZKm0EatEeuE9pHu2l7MHw" target="_c22KUEasEeuE9pHu2l7MHw" source="_f4dWoEarEeuE9pHu2l7MHw"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_z7swkEatEeuE9pHu2l7MHw" target="_phLu8EasEeuE9pHu2l7MHw" source="_c22KUEasEeuE9pHu2l7MHw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_D7xrcEd-Eeuv9vzHtDBg0w" name="yes" target="_upE10EasEeuE9pHu2l7MHw" source="_phLu8EasEeuE9pHu2l7MHw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_GZ9lIEd-Eeuv9vzHtDBg0w" name="no" target="_wfEuIEasEeuE9pHu2l7MHw" source="_phLu8EasEeuE9pHu2l7MHw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_UjcBQEd-Eeuv9vzHtDBg0w" target="_Uie_AEd-Eeuv9vzHtDBg0w" source="_upE10EasEeuE9pHu2l7MHw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_dk_hUEd-Eeuv9vzHtDBg0w" target="_Uie_AEd-Eeuv9vzHtDBg0w" source="_wfEuIEasEeuE9pHu2l7MHw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_i62ywEd-Eeuv9vzHtDBg0w" target="_7d7oYEasEeuE9pHu2l7MHw" source="_Uie_AEd-Eeuv9vzHtDBg0w"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_qlY1gEd-Eeuv9vzHtDBg0w" target="_n2HL0Ed-Eeuv9vzHtDBg0w" source="_7d7oYEasEeuE9pHu2l7MHw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_w-8YkEd-Eeuv9vzHtDBg0w" target="_XUzTgEarEeuE9pHu2l7MHw" source="_n2HL0Ed-Eeuv9vzHtDBg0w"/>
     <node xmi:type="uml:InitialNode" xmi:id="_RewqAEanEeuE9pHu2l7MHw" name="start" outgoing="_Rsif8EaqEeuE9pHu2l7MHw"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_1Mp-8EapEeuE9pHu2l7MHw" name="explores products " incoming="_Rsif8EaqEeuE9pHu2l7MHw" outgoing="_fkg8YEaqEeuE9pHu2l7MHw"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_Z_-80EaqEeuE9pHu2l7MHw" name="search products " incoming="_fkg8YEaqEeuE9pHu2l7MHw" outgoing="_lNpIEEaqEeuE9pHu2l7MHw"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_ijiSQEaqEeuE9pHu2l7MHw" name="find product " incoming="_lNpIEEaqEeuE9pHu2l7MHw" outgoing="_CmfRYEarEeuE9pHu2l7MHw"/>
     <node xmi:type="uml:DecisionNode" xmi:id="_zh5Q0EaqEeuE9pHu2l7MHw" name="found" incoming="_CmfRYEarEeuE9pHu2l7MHw" outgoing="_RzBF8EarEeuE9pHu2l7MHw _Zh7SYEarEeuE9pHu2l7MHw"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_O_LFUEarEeuE9pHu2l7MHw" name="buy " incoming="_RzBF8EarEeuE9pHu2l7MHw" outgoing="_xZJUQEatEeuE9pHu2l7MHw"/>
-    <node xmi:type="uml:ActivityFinalNode" xmi:id="_XUzTgEarEeuE9pHu2l7MHw" name="ActivityFinalNode12" incoming="_Zh7SYEarEeuE9pHu2l7MHw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_XUzTgEarEeuE9pHu2l7MHw" name="ActivityFinalNode12" incoming="_Zh7SYEarEeuE9pHu2l7MHw _w-8YkEd-Eeuv9vzHtDBg0w"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_f4dWoEarEeuE9pHu2l7MHw" name="addto cart" incoming="_xZJUQEatEeuE9pHu2l7MHw" outgoing="_yZKm0EatEeuE9pHu2l7MHw"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_c22KUEasEeuE9pHu2l7MHw" name="checkout " incoming="_yZKm0EatEeuE9pHu2l7MHw" outgoing="_z7swkEatEeuE9pHu2l7MHw"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_hIzuwEasEeuE9pHu2l7MHw"/>
-    <node xmi:type="uml:DecisionNode" xmi:id="_phLu8EasEeuE9pHu2l7MHw" name="registered user" incoming="_z7swkEatEeuE9pHu2l7MHw"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_upE10EasEeuE9pHu2l7MHw" name="login "/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_wfEuIEasEeuE9pHu2l7MHw" name="signup"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_7d7oYEasEeuE9pHu2l7MHw" name="enter delivery detail "/>
-    <node xmi:type="uml:ForkNode" xmi:id="_4-3IcEatEeuE9pHu2l7MHw" name="ForkNode24"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_phLu8EasEeuE9pHu2l7MHw" name="registered user" incoming="_z7swkEatEeuE9pHu2l7MHw" outgoing="_D7xrcEd-Eeuv9vzHtDBg0w _GZ9lIEd-Eeuv9vzHtDBg0w"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_upE10EasEeuE9pHu2l7MHw" name="login " incoming="_D7xrcEd-Eeuv9vzHtDBg0w" outgoing="_UjcBQEd-Eeuv9vzHtDBg0w"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_wfEuIEasEeuE9pHu2l7MHw" name="signup" incoming="_GZ9lIEd-Eeuv9vzHtDBg0w" outgoing="_dk_hUEd-Eeuv9vzHtDBg0w"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7d7oYEasEeuE9pHu2l7MHw" name="enter delivery detail " incoming="_i62ywEd-Eeuv9vzHtDBg0w" outgoing="_qlY1gEd-Eeuv9vzHtDBg0w"/>
+    <node xmi:type="uml:JoinNode" xmi:id="_Uie_AEd-Eeuv9vzHtDBg0w" name="after done" incoming="_UjcBQEd-Eeuv9vzHtDBg0w _dk_hUEd-Eeuv9vzHtDBg0w" outgoing="_i62ywEd-Eeuv9vzHtDBg0w"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_n2HL0Ed-Eeuv9vzHtDBg0w" name="order placed" incoming="_qlY1gEd-Eeuv9vzHtDBg0w" outgoing="_w-8YkEd-Eeuv9vzHtDBg0w"/>
   </packagedElement>
 </uml:Model>
