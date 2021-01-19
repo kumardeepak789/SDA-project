@@ -3,16 +3,20 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_HsH7IEd_Eeuv9vzHtDBg0w">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Activity" xmi:id="_HrK44Ed_Eeuv9vzHtDBg0w" name="ecommerce website " node="_pmtKQEd_Eeuv9vzHtDBg0w _rE3KUEd_Eeuv9vzHtDBg0w _zw5tYEd_Eeuv9vzHtDBg0w _GY6xYEeAEeuv9vzHtDBg0w _cntHwEeAEeuv9vzHtDBg0w">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_HrK44Ed_Eeuv9vzHtDBg0w" name="ecommerce website " node="_pmtKQEd_Eeuv9vzHtDBg0w _rE3KUEd_Eeuv9vzHtDBg0w _zw5tYEd_Eeuv9vzHtDBg0w _GY6xYEeAEeuv9vzHtDBg0w _cntHwEeAEeuv9vzHtDBg0w _ZD8N4FqLEeuECarOPwTIog _drHNUFqLEeuECarOPwTIog">
     <edge xmi:type="uml:ControlFlow" xmi:id="_vrTxAEd_Eeuv9vzHtDBg0w" name="admin" target="_rE3KUEd_Eeuv9vzHtDBg0w" source="_pmtKQEd_Eeuv9vzHtDBg0w"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="__9N5QEd_Eeuv9vzHtDBg0w" target="_zw5tYEd_Eeuv9vzHtDBg0w" source="_rE3KUEd_Eeuv9vzHtDBg0w"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_MnX3sEeAEeuv9vzHtDBg0w" target="_GY6xYEeAEeuv9vzHtDBg0w" source="_zw5tYEd_Eeuv9vzHtDBg0w"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_SqdbgEeAEeuv9vzHtDBg0w" name="no" target="_zw5tYEd_Eeuv9vzHtDBg0w" source="_GY6xYEeAEeuv9vzHtDBg0w"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_cn_boEeAEeuv9vzHtDBg0w" target="_cntHwEeAEeuv9vzHtDBg0w" source="_GY6xYEeAEeuv9vzHtDBg0w"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_bB69gFqLEeuECarOPwTIog" target="_ZD8N4FqLEeuECarOPwTIog" source="_cntHwEeAEeuv9vzHtDBg0w"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_fVDmoFqLEeuECarOPwTIog" target="_drHNUFqLEeuECarOPwTIog" source="_ZD8N4FqLEeuECarOPwTIog"/>
     <node xmi:type="uml:InitialNode" xmi:id="_pmtKQEd_Eeuv9vzHtDBg0w" name="InitialNode1" outgoing="_vrTxAEd_Eeuv9vzHtDBg0w"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_rE3KUEd_Eeuv9vzHtDBg0w" name="add item" incoming="_vrTxAEd_Eeuv9vzHtDBg0w" outgoing="__9N5QEd_Eeuv9vzHtDBg0w"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_zw5tYEd_Eeuv9vzHtDBg0w" name="enter fields " incoming="__9N5QEd_Eeuv9vzHtDBg0w _SqdbgEeAEeuv9vzHtDBg0w" outgoing="_MnX3sEeAEeuv9vzHtDBg0w"/>
     <node xmi:type="uml:DecisionNode" xmi:id="_GY6xYEeAEeuv9vzHtDBg0w" name="valid entries?" incoming="_MnX3sEeAEeuv9vzHtDBg0w" outgoing="_SqdbgEeAEeuv9vzHtDBg0w _cn_boEeAEeuv9vzHtDBg0w"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_cntHwEeAEeuv9vzHtDBg0w" name="add to database " incoming="_cn_boEeAEeuv9vzHtDBg0w"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_cntHwEeAEeuv9vzHtDBg0w" name="add to database " incoming="_cn_boEeAEeuv9vzHtDBg0w" outgoing="_bB69gFqLEeuECarOPwTIog"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ZD8N4FqLEeuECarOPwTIog" name="Save changes" incoming="_bB69gFqLEeuECarOPwTIog" outgoing="_fVDmoFqLEeuECarOPwTIog"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_drHNUFqLEeuECarOPwTIog" name="ActivityFinalNode13" incoming="_fVDmoFqLEeuECarOPwTIog"/>
   </packagedElement>
 </uml:Model>
